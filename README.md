@@ -28,7 +28,7 @@
 # Andromeda Manuel node kurulumu
 
 <p align="center">
-  <img height="100" height="auto" src="andro.jpeg">
+  <img height="300" height="auto" src="andro.jpeg">
 </p>
 
 Orijinal Döküman:
