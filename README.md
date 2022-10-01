@@ -135,6 +135,7 @@ sudo systemctl daemon-reload
 
 sudo -S systemctl enable andromad
 sudo service andromad start
+sudo systemctl restart sourced && sudo journalctl -u andromad -f -o cat
 ```
 
 Validator Oluşturalım
