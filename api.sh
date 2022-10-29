@@ -5,6 +5,8 @@ if [ ! $CHAIN_NAME ]; then
 	echo 'export CHAIN_NAME='$CHAIN_NAME >> $HOME/.bash_profile
 fi
 
+sleep 3s
+
 if [ ! $API_PORT ]; then
 	read -p "Enter API port (default 1317): " API_PORT
 	echo 'export API_PORT='$API_PORT >> $HOME/.bash_profile
