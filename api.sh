@@ -3,11 +3,8 @@
 if [ ! $CHAIN_NAME ]; then
 	read -p "Enter chain name: " CHAIN_NAME
 	echo 'export CHAIN_NAME='$CHAIN_NAME >> $HOME/.bash_profile
+fi
 
-
-if [ ! $API_PORT ]; then
-	read -p "Enter API port (default 1317): " API_PORT
-	echo 'export API_PORT='$API_PORT >> $HOME/.bash_profile
 
 
 sudo apt update && sudo apt upgrade -y
